@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "sh deploy.sh"
+    "start": "./deploy.sh start",
+    "stop": "./deploy.sh stop",
+    "reload": "./deploy.sh reload"
   },
   "keywords": [],
   "author": "",
